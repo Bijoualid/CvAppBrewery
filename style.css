@@ -32,7 +32,7 @@ header
 nav
 {
   background-color: #397198;
-  width: 1100px;
+  width: 1050px;
   margin: 30px auto 70px;
 }
 
@@ -42,6 +42,12 @@ nav
   background-color: #397198;
   color: #d9dad4;
   border-color: #2d5671;
+}
+
+
+.nav-link.active:hover
+{
+  background-color: #000;
 }
 
 
@@ -61,13 +67,14 @@ nav
 
 .carousel
 {
-  margin-left: 100px;
+  margin-left: 50px;
 }
 
 
 .miniatures
 {
   margin-top: 8px;
+  margin-left: 45px;
 }
 
 
