@@ -58,6 +58,12 @@ nav
 }
 
 
+.nav-tabs
+{
+  border-bottom: 1px solid;
+}
+
+
 .overview
 {
   display: flex;
@@ -89,4 +95,37 @@ nav
 {
   font-size: 13px;
   width: 65%;
+}
+
+
+.game-info
+{
+  font-size: 14px;
+  line-height: 16px;
+  color: #556772;
+}
+
+
+.game-score
+{
+  font-style: normal;
+  color: #5bc0f4;
+}
+
+
+.cell
+{
+  display: inline-block;
+  font-size: 12px;
+  background-color: #324b5f;
+  color: #5bc0f4;
+  padding: 2px 9px;
+  border-radius: 2px;
+}
+
+
+.cell:hover
+{
+  text-decoration: none;
+  color: 
 }
