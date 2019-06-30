@@ -16,11 +16,29 @@ h2, h4
 }
 
 
-/* .bloc_page
+button
 {
-  width: 970px;
+  background: linear-gradient( to bottom, rgba(164,208,7,1) 5%, rgba(107,135,5,1) 95%);
+  border: 0;
+  padding: 4px 20px;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  color: #d2e859;
+}
+
+
+button:hover
+{
+  background: rgba(164,208,7,1);
+  color: #fff;
+}
+
+
+.bloc_page
+{
+  width: 1050px;
   margin: auto;
-} */
+}
 
 
 header
@@ -32,7 +50,6 @@ header
 nav
 {
   background-color: #397198;
-  width: 1050px;
   margin: 30px auto 70px;
 }
 
@@ -47,7 +64,8 @@ nav
 
 .nav-link.active:hover
 {
-  background-color: #000;
+  background: linear-gradient(to bottom, #e3eaef 5%, #c7d5e0 95%);
+  color: #313131;
 }
 
 
@@ -71,30 +89,24 @@ nav
 }
 
 
-.carousel
-{
-  margin-left: 50px;
-}
-
-
 .miniatures
 {
   margin-top: 8px;
-  margin-left: 45px;
+
 }
 
 
 .description
 {
   text-align: left;
-  padding-left: 20px;
+  margin-left: 75px;
 }
 
 
 .intro
 {
   font-size: 13px;
-  width: 65%;
+  width: 85%;
 }
 
 
@@ -127,5 +139,39 @@ nav
 .cell:hover
 {
   text-decoration: none;
-  color: 
+  background-color: #23eae6;
+  color: #fff;
+}
+
+
+.hirearea
+{
+  margin-top: 150px;
+  margin-bottom: 130px;
+  background:linear-gradient(135deg, rgba(97,100,101,0.3) 0%,rgba(226,244,255,0.3) 100%);
+  padding: 15px 10px 20px 23px;
+  width: 65%;
+  position: relative;
+}
+
+
+.hirearea p
+{
+  font-size: 21px;
+  font-family: "Motiva Sans", Sans-serif;
+  color: #fff;
+}
+
+
+.hirearea i
+{
+  position: absolute;
+  right: 50px;
+}
+
+
+.hirearea button
+{
+  position: absolute;
+  right: 20px;
 }
