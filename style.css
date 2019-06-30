@@ -10,7 +10,14 @@ p
 }
 
 
-h2, h4
+h2
+{
+  font-size: 1.4rem;
+  color: #ffffff;
+}
+
+
+h4
 {
   color: #ffffff;
 }
@@ -174,4 +181,36 @@ nav
 {
   position: absolute;
   right: 20px;
+}
+
+
+#project
+{
+  margin-bottom: 130px;
+}
+
+
+.project_name
+{
+  display: inline-block;
+  background:linear-gradient(135deg, rgba(97,100,101,0.3) 0%,rgba(226,244,255,0.3) 100%);
+  margin-bottom: 2px;
+  padding: 1px 3px 2px 15px;
+  width: 65%;
+  color: #a8b2ba;
+}
+
+
+.project_name:hover
+{
+  background-color: #66c0f4;
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.btn-github
+{
+  margin-top: 7px;
+  margin-left: 510px;
 }
