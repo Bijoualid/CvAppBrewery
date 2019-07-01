@@ -14,12 +14,27 @@ h2
 {
   font-size: 1.4rem;
   color: #ffffff;
+  text-transform: uppercase;
 }
 
 
 h4
 {
   color: #ffffff;
+}
+
+
+figure
+{
+  text-align: left;
+  display: inline-block;
+}
+
+
+figcaption
+{
+  color: #fff;
+  font-size: 11px;
 }
 
 
@@ -213,4 +228,24 @@ nav
 {
   margin-top: 7px;
   margin-left: 510px;
+}
+
+
+#proexp
+{
+  width: 65%;
+}
+
+
+.exp
+{
+  margin-bottom: 80px;
+}
+
+
+.capsul
+{
+  display: inline-block;
+  text-align: center;
+  padding-left: 13px;
 }
