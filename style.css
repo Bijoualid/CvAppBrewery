@@ -12,7 +12,7 @@ p
 
 h2
 {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   color: #ffffff;
   text-transform: uppercase;
 }
@@ -21,6 +21,31 @@ h2
 h4
 {
   color: #ffffff;
+  font-size: 1.3rem;
+}
+
+
+table
+{
+  background-color: #121b26;
+  color: #8f98a0;
+  width: 30%;
+  position: absolute;
+  right: 0;
+  margin-top: 56px;
+}
+
+
+th
+{
+  padding-top: 15px;
+  padding-left: 25px;
+}
+
+td
+{
+  padding: 10px 10px 8px 25px;
+   border-bottom: 1px solid #626366;
 }
 
 
@@ -60,6 +85,7 @@ button:hover
 {
   width: 1050px;
   margin: auto;
+  position: relative;
 }
 
 
@@ -231,13 +257,54 @@ nav
 }
 
 
+.fa-check
+{
+  color: #5bc0f4;
+}
+
+
 #proexp
+{
+  display: flex;
+}
+
+
+aside
+{
+  margin-top: 390px;
+  margin-left: 60px;
+}
+
+
+.to-skills
+{
+  background-color: #121b26;
+  color: #8f98a0;
+  padding: 16px;
+}
+
+
+.to-skills a
+{
+  background-color: #203749;
+  color: #67c1f5;
+  text-align: center;
+  text-decoration: none;
+  height: 64px;
+  padding-top: 14px;
+  width: 64px;
+  font-size: 13px;
+  float: right;
+}
+
+
+.exp
 {
   width: 65%;
 }
 
 
-.exp
+.detail
 {
   margin-bottom: 80px;
 }
@@ -248,4 +315,10 @@ nav
   display: inline-block;
   text-align: center;
   padding-left: 13px;
+}
+
+
+#aboutme
+{
+  width: 65%;
 }
