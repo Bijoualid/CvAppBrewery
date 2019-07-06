@@ -387,7 +387,6 @@ aside
 {
   width: 1050px;
   margin: 100px auto auto;
-
 }
 
 
@@ -421,4 +420,31 @@ aside
 .css-color
 {
   color: #28a4d8;
+}
+
+
+.halloffame_page
+{
+  /* width: 1050px; */
+  text-align: center;
+  margin-top: 100px;
+}
+
+
+.halloffame-intro
+{
+  margin-top: 50px;
+  color: #5bc0f4;
+}
+
+
+.card-people
+{
+  margin-top: 70px;
+}
+
+
+.personal-card
+{
+  padding-bottom: 4%;
 }
