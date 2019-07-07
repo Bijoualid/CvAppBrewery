@@ -267,7 +267,7 @@ nav
 }
 
 
-.project_name
+.project_list a
 {
   display: inline-block;
   background:linear-gradient(135deg, rgba(97,100,101,0.3) 0%,rgba(226,244,255,0.3) 100%);
@@ -275,6 +275,14 @@ nav
   padding: 1px 3px 2px 15px;
   width: 65%;
   color: #a8b2ba;
+}
+
+
+.project_name_gold:hover
+{
+  background-color: #FFD700;
+  text-decoration: none;
+  color: #fff;
 }
 
 
@@ -380,6 +388,13 @@ aside
   margin-top: 40px;
   padding: 2px 9px 3px;
   font-size: 0.9rem;
+}
+
+
+.seeall:hover
+{
+  color: #23eae6;
+  text-decoration: none;
 }
 
 
