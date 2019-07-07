@@ -362,6 +362,36 @@ aside
 }
 
 
+.contact
+{
+  background-color: #121b26;
+  width: 25%;
+  color: #8f98a0;
+  position: absolute;
+  right: 0;
+  padding: 16px;
+}
+
+
+.contact a
+{
+  display: block;
+  background:linear-gradient(135deg, rgba(97,100,101,0.3) 0%,rgba(226,244,255,0.3) 100%);
+  text-decoration: none;
+  margin-bottom: 2px;
+  padding: 1px 5px 2px 15px;
+  color: #a8b2ba;
+}
+
+
+.contact a:hover
+{
+  background-color: #66c0f4;
+  text-decoration: none;
+  color: #fff;
+}
+
+
 #aboutme
 {
   width: 65%;
